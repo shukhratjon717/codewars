@@ -69,24 +69,23 @@ function switchItUp(number) {
     case 0:
       return "Zero";
     case 1:
-      console.log("One");
+      return "One";
     case 2:
-      console.log("Two");
+      return "Two";
     case 3:
-      console.log("Three");
+      return "Three";
     case 4:
-      console.log("Four");
+      return "Four";
     case 5:
-      console.log("Five");
+      return "Five";
     case 6:
-      console.log("Six");
+      return "Six";
     case 7:
-      console.log("Seven");
+      return "Seven";
     case 8:
-      console.log("Eight");
+      return "Eight";
     case 9:
-      console.log("Nine");
+      return "Nine";
   }
 }
-(switchItUp(9));
-
+console.log(switchItUp(9));
