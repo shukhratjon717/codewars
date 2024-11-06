@@ -40,19 +40,53 @@ n >= 5 and n < 10	95
 n >= 10	90
 You can use if..else or ternary operator to complete it.
  */
-
+//If else case
 function saleHotdogs(n) {
   let price = 0;
   if (n < 5) {
     price = 100;
-    console.log(`Price is ${n * price}$`);
+    // console.log(`Price is ${n * price}$`);
   } else if (n >= 5 || n <= 9) {
     price = 95;
-    console.log(`Price is ${n * price}$`);
+    // console.log(`Price is ${n * price}$`);
   } else if (n >= 10) {
     price = 90;
-    console.log(`Price is ${n * price}$`);
+    // console.log(`Price is ${n * price}$`);
   }
+  return console.log(`Price is ${n * price}$`);
 }
 
-saleHotdogs(12);
+saleHotdogs(2);
+
+//Ternery Operator case
+function saleHotdog(n) {
+  return n * (n < 5 ? 100 : n < 10 ? 95 : 90);
+}
+console.log(saleHotdog(2));
+
+function switchItUp(number) {
+  switch (number) {
+    case 0:
+      return "Zero";
+    case 1:
+      console.log("One");
+    case 2:
+      console.log("Two");
+    case 3:
+      console.log("Three");
+    case 4:
+      console.log("Four");
+    case 5:
+      console.log("Five");
+    case 6:
+      console.log("Six");
+    case 7:
+      console.log("Seven");
+    case 8:
+      console.log("Eight");
+    case 9:
+      console.log("Nine");
+  }
+}
+(switchItUp(9));
+
