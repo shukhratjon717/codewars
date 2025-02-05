@@ -1,4 +1,6 @@
 console.log("FrontEnd JS ishga tushdi");
+
+
 function itemTemplate(item) {
    return `<li
     class="list-group-item list-group-item-info d-flex align-items-center justify-content-between"
